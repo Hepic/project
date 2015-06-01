@@ -16,6 +16,7 @@
 	{
 		$fp = fopen($file_tmp, 'r');
 		$content = fread($fp, filesize($file_tmp));
+		$content = addslashes($content);
 		fclose($fp);
 	
 		$query = "INSERT INTO upload(name, size, type, content, user_name)
