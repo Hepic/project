@@ -1,0 +1,45 @@
+div.registerMain
+{
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	
+	border: solid 5px #FF6600;
+	background-color: #CCCC66;
+	
+	width: 30%;
+	height: 41%;
+	padding: 10px;
+}
+
+div.registerInputs
+{
+	position: relative;
+	top: 20%;
+	left: 20%;
+}
+
+h2#registerTag
+{
+	color: #CC0066;
+}
+
+span#registerLine
+{
+	position: absolute;
+	left: 0%;
+	
+	width: 100%;
+	height: 1%;
+	
+	background-color: #CC6600;
+}
+
+input#registerSubmit
+{
+	margin: 0px 0px 0px 22%;
+	
+	font-size: 20px;
+	color: #99FF66;
+	background-color: #999933;
+}
